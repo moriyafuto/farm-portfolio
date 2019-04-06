@@ -1,0 +1,69 @@
+<DOCTYPE.html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <title>producer|田中ファーム</title>
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+
+<body id="producer">
+  <div class="bg-color">
+  
+  <div id="wrap">
+    <div class="content">
+      <a href="home.html" class="logo">TANAKAFarm👀</a>
+      <h2>生産者</h2>
+      <section class="producer-info">
+        <dl>
+          <dt>名前：</dt><dd>田中 太郎</dd>
+          <dt>年齢：</dt><dd>54歳</dd>
+          <dt>血液型：</dt><dd>AB型</dd>
+          <dt>好きな野菜：</dt><dd>にんじん</dd>
+          <dt>趣味：</dt><dd>魚釣り</dd>
+        </dl>
+        <img src="images/producer-1.jpg">
+      </section>
+      <div class="producer-1">
+        <img src="images/producer-2.jpg">
+        <p>約二十年間もの間北海道札幌市で、農家を営んでいるベテラン生産者です。<br>主にじゃがいも、にんじん、トマト、キャベツを育てており、地元では絶大な人気を誇ります。</p>
+      </div>
+      <div class="producer-2">
+        <img src="images/producer-3.jpg">
+        <p>地元では歩いているだけで子供から<br>声をかけられる優しいおじいちゃんです。<br>そんな田中さんの作る野菜たちは<br>とても美味しく、昨年は札幌市から<br>「札幌功労賞」が贈呈されました。<br>是非美味しい野菜を食べてみてください。</p>
+      </div>
+    </div>
+  </div>
+  
+  <footer>
+    <nav>
+      <ul>
+        <li><a href="producer.html">生産者</a></li>
+        <li><a href="vegetables.html">野菜</a></li>
+        <li><a href="event.html">イベント</a></li>
+        <li><a href="form.html">お問い合わせ</a></li>
+      </ul>
+    </nav>
+  </footer>
+  
+  </div>
+  
+  <script type="text/javascript">
+    $(function() {
+      $(".producer-1").hover(function() {
+        $(".producer-1 p").fadeIn(1500);
+      },function() {
+        $(".producer-1 p").fadeOut(1500);
+      });
+      $(".producer-2").hover(function() {
+        $(".producer-2 p").fadeIn(1500);
+      },function() {
+        $(".producer-2 p").fadeOut(1500);
+      });
+    });
+  </script>
+</body>
+
+</html>
